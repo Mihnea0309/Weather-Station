@@ -1,7 +1,7 @@
 <h1>Weather Station</h1>
 
 <h2>Objectives</h2>
-This project was made to gauged a number of parameters, like the temperature, the humidity, the pressure and the UV index. This system has a LCD panel to show this information and also to compare it with real time data from the OpenWeather website. Also, the station is sending real time information towards two website, WeatherUnderground where I created my own station and sends its information to their site and ThingSpeak where I compare the station's information and the data from OpeanWeather. 
+This project was made to gauge a number of parameters, like the temperature, the humidity, the pressure and the UV index. This system has a LCD panel to show this information and also to compare it with real time data from the OpenWeather website. Also, the station is sending real time information towards two website, WeatherUnderground where I created my own station and sends its information to their site and ThingSpeak where I compare the station's information and the data from OpeanWeather. 
 <br />
 
 <h2>The description of the solution</h2>
