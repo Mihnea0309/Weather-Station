@@ -15,13 +15,13 @@ I made the weather station using accessible components, such as:
   
 <h2>Project realization:</h2>
 
-- First, we mounted the servos to the camera stand with screws and over that we put the recessed canister cover on which the four photoresistors are located.
-- The next step was to drill a hole in the cover of the apparent by-pass can to epoxy the bracket onto it, and another one to run the wires from the motors and photoresistors into the box that will contain the breadboard and Arduino board. One last hole was drilled on the side for the microcontroller power cable. This was done using a heated screwdriver. 
-- I then made the entire circuit without connecting the wires to the photoresistors. After putting it in the apparent can, we connected it to the photoresistors.
+- First, I connected the data sensors and the control unit to make sure that everything is working as intended.
+- Then, I connected the LCD Panel to display the information to the person using it.
+- I then worked on the desired code for the control unit. I managed the data that was received, sent it to the websites and displayed it on the panel
 <p align="center">
   <img src="https://i.imgur.com/OzYa18Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-- Next, we worked on realizing the code for the optimal operation of the support. The workaround is to try to make the bracket go towards the light so that the values transmitted by the four sensors are as equal as possible. We did this by comparing the opposite sides two by two, the values of which we obtained after calculating the arithmetic average of two adjacent sensors. If one of the sides has a higher value, the support moves in the direction of that side.
+- Lastly, after the coding was done, I connected the control unit to the 1.5V batteries for it to work remotely and without the need of a USB cable.
 
 <h2>Testing the solution</h2>
 To test the project, we performed the following steps:
