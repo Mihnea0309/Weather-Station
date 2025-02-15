@@ -1,19 +1,18 @@
-<h1>Solar tracker</h1>
+<h1>Weather Station</h1>
 
 <h2>Objectives</h2>
-The main objective of this project is to implement a solar panel developed with a technology to track the light. The system is made to optimise the efficiency with which the solar energy is being gained by automatically adjusting the angles of the panel depending on the position of the light.
+This project was made to gauged a number of parameters, like the temperature, the humidity, the pressure and the UV index. This system has a LCD panel to show this information and also to compare it with real time data from the OpenWeather website. Also, the station is sending real time information towards two website, WeatherUnderground where I created my own station and sends its information to their site and ThingSpeak where I compare the station's information and the data from OpeanWeather. 
 <br />
 
 <h2>The description of the solution</h2>
-I made the tracking system on two axes using accessible materials, such as:
+I made the weather station using accessible components, such as:
 
-- Servo Motors: two SG90 90° servomotors, one for each axe, to ensure precise and controlled rotation of the solar panel
-- Light sensors: Four type 5528 light sensors (LDR - Light Dependent Resistor) mounted in different corners of the solar panel to detect light intensity and send signals to the control unit.
-- 10kΩ resistors
-- Control unit: an Arduino Uno microcontroller programmed to process the data from the light sensors and control the drive motors, thus ensuring optimal orientation of the solar panel, using a breadboard
-- Mini photovoltaic panel 5V 25mA
-- Mounting bracket: PAN-TILT camera bracket, one recessed shunt canister cover and one exposed shunt canister
-
+- Data sensors: a DHT22 sensor for temperature and humidity, a UV sensor and a BME280 sensor for pressure
+- Information Panel: a TFT LCD panel to display the necessary information
+- Control unit: a Wifi NodeMCU V3, ESP8266, programmed to process the data from the sensors, to display it to the LCD Panel, to get the data and to send it to the mentioned websites
+- Three 1.5V AA batteries to power the control unit
+- The support: an improvisation made out of a phone case.
+  
 <h2>Project realization:</h2>
 
 - First, we mounted the servos to the camera stand with screws and over that we put the recessed canister cover on which the four photoresistors are located.
